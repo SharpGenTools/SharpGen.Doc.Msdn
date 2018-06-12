@@ -15,7 +15,7 @@
     <PackageReference Include="System.Net.Requests" Version="4.3.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SharpGen\SharpGen.csproj" />
+    <PackageReference Include="SharpGen" Version="1.0.3" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services" />

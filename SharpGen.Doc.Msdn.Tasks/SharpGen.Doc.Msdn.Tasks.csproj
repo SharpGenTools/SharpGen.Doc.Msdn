@@ -16,13 +16,7 @@
     <ProjectReference Include="..\SharpGen.Doc.Msdn\SharpGen.Doc.Msdn.csproj">
       <PrivateAssets>all</PrivateAssets>
     </ProjectReference>
-    <ProjectReference Include="..\SharpGen\SharpGen.csproj">
-      <PrivateAssets>all</PrivateAssets>
-    </ProjectReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="..\SharpGenTools.Sdk\BindingRedirectResolution.cs" Link="BindingRedirectResolution.cs" />
+    <PackageReference Include="SharpGen" Version="1.0.3" />
   </ItemGroup>
 
 </Project>

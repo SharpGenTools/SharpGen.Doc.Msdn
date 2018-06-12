@@ -3,7 +3,6 @@ using System.IO;
 using Microsoft.Build.Framework;
 using Microsoft.Build.Utilities;
 using SharpGen.CppModel;
-using SharpGenTools.Sdk;
 
 namespace SharpGen.Doc.Msdn.Tasks
 {
